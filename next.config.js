@@ -2,6 +2,17 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+
+  images: {
+    domains: [
+      'files.stripe.com',
+    ],
+  },
+
+  experiments: {
+   newNextLinkBehavior: true,
+  }
+
 }
 
 module.exports = nextConfig
